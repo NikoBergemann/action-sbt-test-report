@@ -14,11 +14,12 @@ runs:
     # run tests
     - name: Run tests
       run: |
-        echo "##########################"
-        echo "#    starting test       #"
-        echo "##########################"
+        echo "############################"
+        echo "#      starting test       #"
+        echo "############################"
+        echo " ${{ inputs.what-to-test }}"
         sbt coverage "testOnly ${{ inputs.what-to-test }}" coverageReport coverageAggregate
-        echo "##########################"
-        echo "#    finished test       #"
-        echo "##########################"
+        echo "############################"
+        echo "#      starting test       #"
+        echo "############################"
       shell: bash
