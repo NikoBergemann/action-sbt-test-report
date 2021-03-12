@@ -18,7 +18,7 @@ runs:
         echo "#      starting test       #"
         echo "############################"
         echo " ${{ inputs.what-to-test }}"
-        sbt coverage "testOnly ${{ inputs.what-to-test }}" coverageReport coverageAggregate
+        sbt coverage "testOnly ${{ inputs.what-to-test }}" coverageAggregate
         echo "############################"
         echo "#      starting test       #"
         echo "############################"

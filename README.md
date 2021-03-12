@@ -22,6 +22,7 @@ Note that
 // -- project/plugins.sbt
 addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.6.0")
 ```
+>! note that scoverage version 1.6 is the required minimum version for the coverageAggregate to work
 
 ```sbt
 // -- build.sbt
