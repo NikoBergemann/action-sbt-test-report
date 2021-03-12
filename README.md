@@ -7,7 +7,7 @@ Parameterize the action with the tests you want to run, like this.
 ```yaml
     # Run Tests
     - name: run tests with coverage and reports
-      uses: /NikoBergemann/action-sbt-test-report@v1
+      uses: /NikoBergemann/action-sbt-test-report@v3
       with:
         what-to-test: '*ManagerTests *CourseAccessTests'
 ```
